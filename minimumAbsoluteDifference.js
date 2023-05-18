@@ -26,6 +26,7 @@ minAbsDiff = (arr) => {
         return sum;
     }
      
-    const arr = [2,-1,0,4,-2,-9];
  
-    console.log(minAbsDiff(arr));
+    console.log(minAbsDiff([2,-1,0,4,-2,-9]));
+    console.log(minAbsDiff([-36,36]));
+    console.log(minAbsDiff([3,9,7,3]));
