@@ -5,7 +5,7 @@ minAbsDiff = (arr) => {
 
         let sum = 0;
            
-        let n = arr.length; 
+        const n = arr.length; 
        
         sum += (arr[0] - arr[1]);
         if(n === 2) {
