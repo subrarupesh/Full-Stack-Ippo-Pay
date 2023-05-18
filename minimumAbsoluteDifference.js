@@ -18,13 +18,14 @@ minAbsDiff = (arr) => {
         }
          
          
-        for (let i = 1; i < n-1; i++)
+        for (let i = 1; i < n-1; i++) {
             sum += Math.min(Math.abs(arr[i] - arr[i-1]),
                     Math.abs(arr[i] - arr[i+1]));
+        }
                
         return sum;
     }
      
-    let arr = [2,-1,0,4,-2,-9];
+    const arr = [2,-1,0,4,-2,-9];
  
     console.log(minAbsDiff(arr));

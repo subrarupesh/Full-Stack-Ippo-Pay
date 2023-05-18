@@ -1,13 +1,13 @@
 minimumSteps = (password) => {
     let count = 0;
     
-    let digit = /(\d)/;
-    let upper = /([A-Z])/;
-    let lower = /([a-z])/;
+    const digit = /(\d)/;
+    const upper = /([A-Z])/;
+    const lower = /([a-z])/;
     
-    let numDigits = digit.exec(password);
-    let numUpper = upper.exec(password);
-    let numLower = lower.exec(password);
+    const numDigits = digit.exec(password);
+    const numUpper = upper.exec(password);
+    const numLower = lower.exec(password);
     
     if(!numDigits) {
         count++;
@@ -24,6 +24,7 @@ minimumSteps = (password) => {
     if(count + password.length < 6) {
         count = count + 6 - (count + password.length);
     }
+    
     return count;
 }
 
