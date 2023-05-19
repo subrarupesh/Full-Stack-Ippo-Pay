@@ -4,5 +4,5 @@
 # modify nodemon.json for running node  js code
 # npm run server
 # cd front-end
-# npm run start
+# npm install
 # npm run start
