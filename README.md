@@ -5,4 +5,4 @@
 # npm run server
 # cd front-end
 # npm run start
-# npm run stary
+# npm run start
